@@ -82,10 +82,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "AI Workplace Productivity Assistant — write emails, summarize meetings, plan projects, run research, and chat with AI." },
       { name: "author", content: "Lovable" },
       { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "AI Workplace Productivity Assistant" },
+      { property: "og:description", content: "AI Workplace Productivity Assistant — write emails, summarize meetings, plan projects, run research, and chat with AI." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Lovable App" },
+      { name: "twitter:description", content: "AI Workplace Productivity Assistant — write emails, summarize meetings, plan projects, run research, and chat with AI." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6c48aa21-b6ff-4abd-a649-82b93f744d00/id-preview-a74061f9--4806b977-a101-4d4a-9409-4e0047a53f67.lovable.app-1781851666343.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6c48aa21-b6ff-4abd-a649-82b93f744d00/id-preview-a74061f9--4806b977-a101-4d4a-9409-4e0047a53f67.lovable.app-1781851666343.png" },
     ],
     links: [
       {
